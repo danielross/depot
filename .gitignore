@@ -16,3 +16,4 @@
 
 # Ignore Mac backup
 *DS_Store
+*.swp
