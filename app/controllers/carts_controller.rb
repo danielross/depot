@@ -5,7 +5,7 @@ class CartsController < ApplicationController
     @carts = Cart.all
 
     respond_to do |format|
-      format.html cart.html.erb
+      format.html #cart.html.erb
       format.json { render :json => @carts }
     end
   end
