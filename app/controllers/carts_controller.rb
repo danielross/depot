@@ -5,7 +5,7 @@ class CartsController < ApplicationController
     @carts = Cart.all
 
     respond_to do |format|
-      format.html # index.html.erb
+      format.html cart.html.erb
       format.json { render :json => @carts }
     end
   end
@@ -82,7 +82,7 @@ class CartsController < ApplicationController
     session[:cart_id] = nil
 
     respond_to do |format|
-      format.html { redirect_to(store_url, :notice => 'Your cart is currently empty') }
+      format.html { redirect_to(store_url) }
       format.json { head :no_content }
     end
   end
