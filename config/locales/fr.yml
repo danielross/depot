@@ -1,0 +1,65 @@
+fr:
+
+
+  thanks: "Merci pour votre achat"
+
+  layouts:
+    application:
+      title: "Librairie Pragmatique"
+      home: "Accueil"
+      questions: "Questions"
+      news: "Nouvelles"
+      contact: "Contact"
+
+  store:
+    index:
+      title_html: "Ton Catalogue Pragmatique"
+      add_html: "Ajouter au Panier"
+
+  carts:
+    cart:
+      title: "Ton caddie"
+      empty: "Vider le caddie"
+      checkout: "Acheter"
+
+
+  number:
+    currency:
+      format:
+        unit: "€"
+        precision: 2
+        seperator: ","
+        delimiter: " "
+        format: "%n&nbsp;%u"
+
+  orders:
+    new:
+      legend: "Veuillez Entrer Vos Détails"
+    form:
+      name: "Nom"
+      description_html: "Adresse"
+      email: "E-mail"
+      pay_type: "Paiement"
+      pay_prompt_html: "Sélectionnez un mode de paiement"
+      submit: "Passer une commande"
+
+  activerecord:
+    models:
+      order: "commande"
+    attributes:
+      order:
+        description: "Description"
+        name: "Nom"
+        email: "E-mail"
+        pay_type: "Paiement"
+    errors:
+      messages:
+        inclusion: "n'est pas inclu dans la liste"
+        blank: "ne peut pas être vide"
+
+  errors:
+    template:
+      body: "Il y'a des problèmes avec les champs suivants :"
+      header:
+        one: "Une erreur a empéché cette %{model} d'être sauvegardé"
+        other: "%{count} erreurs ont empéché cette %{model} d'être sauvegardé"
