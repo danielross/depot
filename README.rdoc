@@ -1,3 +1,5 @@
 == Depot
 Learning rails through a simple shopping cart application.
 Pragmatic Agile Web Developpment with Rails
+
+Deployed to heroku at depot-dnlross.herokuapp.com
